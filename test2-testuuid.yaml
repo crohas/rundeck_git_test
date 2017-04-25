@@ -2,7 +2,7 @@
   executionEnabled: true
   id: testuuid
   loglevel: INFO
-  name: test job
+  name: test2
   nodeFilterEditable: false
   scheduleEnabled: true
   sequence:
