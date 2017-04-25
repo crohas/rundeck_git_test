@@ -1,0 +1,17 @@
+- description: ''
+  executionEnabled: true
+  id: testuuid
+  loglevel: INFO
+  name: test job
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 0
+    keepgoing: false
+    pluginConfig:
+      WorkflowStrategy:
+        node-first: null
+    strategy: node-first
+  uuid: testuuid
+
