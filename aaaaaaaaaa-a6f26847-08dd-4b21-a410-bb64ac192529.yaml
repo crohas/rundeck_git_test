@@ -1,0 +1,17 @@
+- description: ''
+  executionEnabled: true
+  id: a6f26847-08dd-4b21-a410-bb64ac192529
+  loglevel: INFO
+  name: aaaaaaaaaa
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo 1
+    keepgoing: false
+    pluginConfig:
+      WorkflowStrategy:
+        node-first: null
+    strategy: node-first
+  uuid: a6f26847-08dd-4b21-a410-bb64ac192529
+
